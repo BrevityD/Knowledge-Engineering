@@ -31,4 +31,4 @@ It can be proven that all SAT problems can be reduced to 3-SAT, meaning that 3-S
 For randomly generated $\omega$ CNF samples, when $\omega$ is sufficiently large, there exists a critical clause density (the ratio of the number of clauses to the number of variables) $r^*$ such that when $r\le r^*$, the probability that a 3-CNF expression with n variables and nr clauses is satisfiable approaches 1. When $r>r^*$, the probability of satisfiability approaches 0. This critical value $r^*$ is called the "phase transition point", and this phenomenon is known as the phase transition effect of the SAT problem.
 
 In this project, I directly used pysat to solve SAT expressions and presented a phase transition effect graph. Due to performance and time constraints, I did not perform extensive sampling, and the resulting curve does not clearly show $r^*\approx4.26$. With a sufficient number of clauses and sampling times, a better presentation can be observed, as shown in the figure below.
-![3-sat](.\imgs\3-sat.png)
+![3-sat](./imgs/3-sat.png)
